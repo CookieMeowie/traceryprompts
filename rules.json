@@ -1,6 +1,4 @@
 {
-	"backupmain": "(masterpiece:1.2), best quality, masterpiece illustration, highres, cinematic lighting, warm colours, in the style of #copywright#, solo, #face#, #framing#, #basic_posture#, loli, bright eyes, round face, soft lips, perfect face, small breasts, flat chest, pale skin), wide hips, thick thighs, huge ass, forked eyebrows, orange eyes, black hair, quiff, undercut), blue clothing, short jumpsuit, sleeveless, belt pouch, exposed pocket, makeup, smeared lipstick, runny makeup, paint splatter, paint smear, paint on face, paint on clothes, spray paint, spray can, paint can, paint brush, easel, palette (object), graffiti, architecture, building, fantasy, rpg, city, people, blue sky, sun, light rays, sparkle, crowded",
-	
 	"copywright": [
 		"Amphibia",
 		"Arknights",
@@ -961,7 +959,8 @@
 		"maid uniform",
 		"naked apron",
 		"apron",
-		"short apron"
+		"short apron",
+		"dungarees"
 	],
 	"face": [
 		"pouty lips",
@@ -1012,29 +1011,44 @@
 		"close-up",
 		"cut-in"
 	],
-	"mediums": [
-		"dakimakura_(medium)",
-		"card_(medium)",
-		"photo_(medium)",
-		"painting_(medium)",
-		"marker_(medium)",
-		"graphite_(medium)",
-		"watercolor_(medium)",
-		"colored_pencil_(medium)",
-		"calendar_(medium)",
-		"millipen_(medium)",
-		"nib_pen_(medium)",
-		"acrylic_paint_(medium)",
-		"poster_(medium)",
-		"ink_(medium)",
-		"watercolor_pencil_(medium)",
-		"calligraphy_brush_(medium)",
-		"ballpoint_pen_(medium)",
-		"pastel_(medium)",
-		"oil_painting_(medium)",
-		"mousepad_(medium)",
-		"pen_(medium)",
-		"papercraft_(medium)"
+	"close_framing": [
+		"face",
+		"portrait",
+		"upper body",
+		"lower body",
+		"cowboy shot",
+		"feet out of frame"
+	],
+	"far_framing": [
+		"full body",
+		"wide shot",
+		"very wide shot",
+		"close-up",
+		"cut-in"
+	],
+	"medium": [
+		"dakimakura (medium)",
+		"card (medium)",
+		"photo (medium)",
+		"painting (medium)",
+		"marker (medium)",
+		"graphite (medium)",
+		"watercolor (medium)",
+		"colored pencil (medium)",
+		"calendar (medium)",
+		"millipen (medium)",
+		"nib pen (medium)",
+		"acrylic paint (medium)",
+		"poster (medium)",
+		"ink (medium)",
+		"watercolor pencil (medium)",
+		"calligraphy brush (medium)",
+		"ballpoint pen (medium)",
+		"pastel (medium)",
+		"oil painting (medium)",
+		"mousepad (medium)",
+		"pen (medium)",
+		"papercraft (medium)"
 	],
 	"perspective": [
 		"atmospheric perspective",
@@ -1164,6 +1178,27 @@
 		"hair slicked back",
 		"mohawk",
 		"oseledets"
+	],
+	"hair_colour": [
+		"aqua hair",
+		"black hair",
+		"blonde hair",
+		"blue hair",
+		"light blue hair",
+		"dark blue hair",
+		"brown hair",
+		"light brown hair",
+		"green hair",
+		"dark green hair",
+		"light green hair",
+		"grey hair",
+		"orange hair",
+		"purple hair",
+		"pink hair",
+		"light purple hair",
+		"red hair",
+		"white hair",
+		"yellow hair"
 	],
 	"looking_at": [
 		"looking at viewer",
@@ -1392,7 +1427,7 @@
 		"shocker (gesture)",
 		"v",
 		"v over eye",
-		"v_over_mouth",
+		"v over mouth",
 		"w",
 		"air guitar",
 		"bowing",
@@ -1606,5 +1641,216 @@
 		"Your heart",
 		"ZA WARUDO",
 		"Zukyuun"
+	],
+	"lewd": [
+		"nsfw, sexually suggestive, #lewd_boobs#, #lewd_pussy#, #damaged_ran#"
+	],
+	"lewd_ran": [
+		"#lewd#",
+		"",
+		"",
+		""
+	],
+	"lewd_boobs": [
+		"cleavage",
+		"bursting breasts",
+		"#lewd_boobs_nipples# nipples",
+		"puffy nipples",
+		"areola"
+	],
+	"lewd_boobs_nipples": [
+		"covered",
+		"puffy"
+	],
+	"lewd_pussy": [
+		"upskirt #lewd_pussy_cameltoe1#",
+		""
+	],
+	"lewd_pussy_cameltoe1": [
+		"cameltoe #lewd_pussy_cameltoe2# #lewd_pussy_cameltoe2#"
+	],
+	"lewd_pussy_cameltoe2": [
+		"fat mons",
+		"cleft of venus",
+		""
+	],
+	"damaged": [
+		"torn clothes, torn"
+	],
+	"damaged_ran": [
+		"#damaged",
+		"",
+		"",
+		""
+	],
+	"bg_list": [
+		"street, city, day, blue sky, sunlight, storefront, display, shop sign, traffic, car, lamp post, shopping, bag",
+		"indoors, bedroom, bed, pillow, stuffed animal, window, curtain, day, blue sky, cloud, sunlight, light rays, shelf, book, desk, pencil, wardrobe, clothes",
+		"building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree, blue sky, cloud",
+		"indoors, school, classroom, chalkboard, window, blue sky, sunlight, lockers, storage box, chair, table, wall clock",
+		"indoors, gym, hall, wooden floor, large windows, blue sky, sunlight, light rays, gym mats, volleyball net, volleyball",
+		"(fantasy:1.4), rpg, indoors, office, computer, filing cabinet, files, papers, pen, pencil, measuring stick, window, blue sky, sun, sunlight, light rays, clock, chalk, potted plant, papers, book stack, bookshelf, locker, chair",
+		"light rays, bookshelf, door, window, blue sky, clouds, sun, light rays, television, couch, curtain, cushion, stuffed toy, toy",
+		"light rays, garden, swimming pool, inflatable toy, parasol, lounge chair, towel, blue sky, clouds, sun, lotion",
+		"building, garden, (sprinkler:1.2), (water drop:1), (splashing:1.2), hose, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree, sun, run rays, blue sky, cloud",
+		"bedroom, bed, toy, kids toys, playroom, rug, curtain, window, nigh, nightsky, stars, moon, moonlight, moon rays",
+		"(fantasy:1.4), rpg, indoors, kindergarten, toys, building blocks, stroller, blanket, folded clothes, crib, storage box, cardboard box, chalkboard, window, blue sky, sun, sunlight, light rays, clock, chalk, potted plant, papers, book stack, bookshelf, locker, chair",
+		"(fantasy:1.3), architecture, ocean, waves, sunset, harbor, sailing ship, building, fantasy, rpg, city, people, blue sky, sun, light rays, sparkle",
+		"(fantasy, dungeon, rpg, treasure chest, (embers:1.1), trap, mimic, jewels, (loot:1), gold, (gold coins:1.1), coins, embers, shadows, maps, clutter:1.1)",
+		"light rays, (sparkles:1), (electricity:1.3), laboratory, school, bookshelf, test tubes, torch, fireplace, desk, table, potions, magic potions, potion cabinet, chemicals, experiments, science",
+		"gym, mirror, window, barbell, dumbell, bench, weight bench, weight lifting",
+		"fantasy, beach, rpg, treasure chest, trap, mimic, jewels, (loot:1), gold, (gold coins:1.1), (coins:1.2), plants, palm tree, maps, watercraft, ship, sailing ship, (clutter:1.1)",
+		"(architecture, building, victorian school, fantasy, rpg, city, people, blue sky, sun, light rays, sparkle, crowded:1)"
+	],
+	"genre": [
+		"sci-fi",
+		"fantasy",
+		"medieval",
+		"modern",
+		"contemporary",
+		"steampunk",
+		"cyberpunk",
+		"dieselpunk",
+		"biopunk",
+		"punkpunk",
+		"ecopunk",
+		"future",
+		"prehistoric"
+	],
+	"location_contemporary": [
+		"#location_indoors_contemporary#, #props_contemporary_indoor_only#, #props_contemporary_indoor_only#, #props_contemporary_indoor_only#, clutter",
+		"#location_outdoors_contemporary#, #props_contemporary_outdoor_only#, #props_contemporary_outdoor_only#, #props_contemporary_outdoor_only#, clutter"
+	],
+	"location_indoors_contemporary": [
+		"bedroom",
+		"gym",
+		"kitchen",
+		"shopping mall",
+		"grocery store",
+		"treehouse",
+		"parking garage"		
+	],
+	"location_outdoors_contemporary": [
+		"park",
+		"block party",
+		"valley",
+		"gas station",
+		"middle of nowhere",
+		"cabin in the woods",
+		"field",
+		"forest",
+		"graveyard"
+	],
+	"props_contemporary_indoor_only": [
+		"bookshelf", 
+		"couch", 
+		"bed", 
+		"window",
+		"wooden",
+		"chair",
+		"table",
+		"desk",
+		"paper",
+		"cushion",
+		"pillow",
+		"stuffed animal",
+		"wall clock"
+	],
+	"props_contemporary_outdoor_only": [
+		"tree",
+		"grass",
+		"bush",
+		"fence",
+		"brick",
+		"building",
+		"architecture",
+		"hedge"
+	],
+	"location_older": [
+		"#location_indoors_older#, #props_older_indoor_only#, #props_older_indoor_only#, #props_older_indoor_only#",
+		"#location_outdoors_older#, #props_older_outdoor_only#, #props_older_outdoor_only#, #props_older_outdoor_only#"
+	],
+	"location_indoors_older": [
+		"bedroom",
+		"kitchen",
+		"tavern",
+		"guild hall",
+		"crystal cave",
+		"throne room",
+		"volcanic lair",
+		"dragon's lair"
+	],
+	"location_outdoors_older": [
+		"middle of nowhere",
+		"wood cabin",
+		"pirate cove",
+		"beach alove",
+		"desert oasis",
+		"ruins of an ancient temple",
+		"bazaar",
+		"trading output",
+		"a mountain pass",
+		"sky city",
+		"enchanted woods",
+		"graveyard",
+		"flower",
+		"tree",
+		"bush"
+	],
+	"props_older_indoor_only": [
+		"mug",
+		"chair",
+		"table",
+		"shield",
+		"bottle",
+		"grandfather clock",
+		"curtain",
+		"tapestry",
+		"wall hanging",
+		"mounted head"
+	],
+	"props_older_outdoor_only": [
+		"tree",
+		"bush",
+		"flower",
+		"boulder",
+		"castle",
+		"cottage",
+		"architecture",
+		"ruins",
+		"rubble"
+	],
+	"location_any": [
+		"#location_contemporary#",
+		"#location_older#"
+	],
+	"time_of_day": [
+		"day, #tod_day_items#, #tod_day_items#, #tod_day_items#",
+		"night, #tod_night_items#, #tod_night_items#, #tod_night_items#"
+	],
+	"tod_night_items": [
+		"moon",
+		"full moon",
+		"crescent moon",
+		"stars",
+		"clouds",
+		"aurora",
+		"moonlight",
+		"moon light rays",
+		"sunrise"
+	],
+	"tod_day_items": [
+		"sun",
+		"huge sun",
+		"sunlight",
+		"light rays",
+		"clouds",
+		"cloudy sky",
+		"sunset",
+		"dawn",
+		"dusk"
+	],
+	"bg_any": [
+		"#genre, #location_any#"
 	]
 }
