@@ -16,8 +16,15 @@ from modules.processing import Processed, process_images
 from modules.shared import cmd_opts, opts, state
 
 DEFAULT_RULES = "{\n\"origin\": \"#hello.capitalize#, #location#!\",\n\"hello\": [\"hello\", \"greetings\", \"howdy\", \"hey\"],\n\"location\": [\"world\", \"solor system\", \"galaxy\", \"universe\"]\n}"
+DEFAULT_PATH = "/extensions/UltimateRandomizer/rules.json"
 
 class Script(scripts.Script):  
+
+    def load_json(jsonpath):
+        # Load rules.json
+        with open(jsonpath) as data_file:
+            rules_dict = json.load(data_file)
+            return rules_dict
 
 # The title of the script. This is what will be displayed in the dropdown menu.
     def title(self):
@@ -35,9 +42,50 @@ class Script(scripts.Script):
 # Most UI components can return a value, such as a boolean for a checkbox.
 # The returned values are passed to the run method as parameters.
     def ui(self, is_img2img):
-        jsonpath = gr.Text(label="Rules JSON path", value=scripts.basedir() + "/extensions/traceryprompts/rules.json")
-        showp = gr.Checkbox(label="Show prompt in console", value=True)
-        return [ jsonpath, showp ]
+        # Load json
+        with open(scripts.basedir() + DEFAULT_PATH) as data_file:
+            rules_dict = json.load(data_file)
+        
+        
+
+        with gr.Row():
+            gr.HTML("<div style=\"background-color:black;margin-bottom:1em;margin-top:1em;align:center\"><p><h1><b>Ultimate Randomizer of Ultimate Fun</b></h1></p></div>")
+
+        with gr.Row():
+            showp = gr.Checkbox(label="Show prompt in console", value=True)
+
+        if len(rules_dict) == 0:
+            print(f"\nInvalid grammar. No rules specified.")
+            gr.Markdown("Error: Could not read rules.json!")
+            return [ showp ]
+
+        with gr.Row():
+            gr.HTML("<div style=\"margin-bottom:1em;margin-top:1em;align:center\"><p><b>Reference:</b></p></div>")
+
+        keys = list(rules_dict.keys())
+        # order
+        keys.sort()
+        i = 0
+        while True:
+            with gr.Row():
+                gr.Dropdown(rules_dict[keys[i]], label=keys[i])
+                i += 1
+                if i >= len(keys):
+                    break
+                gr.Dropdown(rules_dict[keys[i]], label=keys[i])
+                i += 1
+                if i >= len(keys):
+                    break
+                gr.Dropdown(rules_dict[keys[i]], label=keys[i])
+                i += 1
+                if i >= len(keys):
+                    break
+                gr.Dropdown(rules_dict[keys[i]], label=keys[i])
+                i += 1
+                if i >= len(keys):
+                    break
+
+        return [ showp ]
 
 # This is where the additional processing is implemented. The parameters include
 # self, the model object "p" (a StableDiffusionProcessing class, see
@@ -45,9 +93,9 @@ class Script(scripts.Script):
 # Custom functions can be defined here, and additional libraries can be imported 
 # to be used in processing. The return value should be a Processed object, which is
 # what is returned by the process_images method.
-    def run(self, p, jsonpath, showp):
+    def run(self, p, showp):
         # Load rules.json
-        with open(jsonpath) as data_file:
+        with open(scripts.basedir() + DEFAULT_PATH) as data_file:
             rules_dict = json.load(data_file)
 
         if len(rules_dict) == 0:
