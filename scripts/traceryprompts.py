@@ -16,7 +16,7 @@ from modules.processing import Processed, process_images
 from modules.shared import cmd_opts, opts, state
 
 DEFAULT_RULES = "{\n\"origin\": \"#hello.capitalize#, #location#!\",\n\"hello\": [\"hello\", \"greetings\", \"howdy\", \"hey\"],\n\"location\": [\"world\", \"solor system\", \"galaxy\", \"universe\"]\n}"
-DEFAULT_PATH = "/extensions/UltimateRandomizer/rules.json"
+DEFAULT_PATH = "\\extensions\\traceryprompts\\rules.json"
 
 class Script(scripts.Script):  
 
@@ -45,11 +45,9 @@ class Script(scripts.Script):
         # Load json
         with open(scripts.basedir() + DEFAULT_PATH) as data_file:
             rules_dict = json.load(data_file)
-        
-        
 
         with gr.Row():
-            gr.HTML("<div style=\"background-color:black;margin-bottom:1em;margin-top:1em;align:center\"><p><h1><b>Ultimate Randomizer of Ultimate Fun</b></h1></p></div>")
+            gr.HTML("<div width=\"100%\" style=\"background-color:black;margin-bottom:1em;margin-top:1em;align:center\"><p><h1><b>Ultimate Randomizer of Ultimate Fun</b></h1></p></div>")
 
         with gr.Row():
             showp = gr.Checkbox(label="Show prompt in console", value=True)
