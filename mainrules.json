@@ -2121,13 +2121,10 @@
 		"dusk"
 	],
 	"bg_any": [
-		"#genre, #location_any#"
+		"#genre#, #location_any#"
 	],
 	"arched_or_bent": [
 		"arched back",
 		"bent over"
-	],
-	"loc_dressing_room": [
-		"dressing room, clothing store, curtain, racks of clothes, mirror, store changing room, open curtain, shoes, folded clothes, hanging clothes"
 	]
 }

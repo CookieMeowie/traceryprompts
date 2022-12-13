@@ -1,0 +1,23 @@
+{
+	"template_example_hair_colours": [
+		"black hair",
+		"blonde hair",
+		"red hair",
+		"brown hair",
+		"blue hair",
+		"grey hair",
+		"white hair"
+	],
+	"template_example_hairstyles": [
+		"very short hair",
+		"short hair",
+		"medium hair",
+		"long hair",
+		"very long hair",
+		"absurdly long hair"
+	],
+	"tempalte_example_final": [
+		"#template_example_hair_colours#, #template_example_hairstyles#",
+		"black hair, #template_example_hairstyles#"
+	]
+}
