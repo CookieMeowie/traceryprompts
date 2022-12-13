@@ -928,14 +928,15 @@
 		"Zone Of The Enders",
 		"Zootopia"
 	],
-	"dress": [
+	"female_clothing": [
+		"#dress_type#",
+		"#skirt_type#",
+		"#dress_type#",
+		"#skirt_type#",
+		"#dress_type#",
+		"#skirt_type#",
 		"shorts",
 		"short shorts",
-		"miniskirt",
-		"short skirt",
-		"long dress",
-		"dress",
-		"minidress",
 		"bikini",
 		"micro bikini",
 		"micro panties",
@@ -960,7 +961,89 @@
 		"naked apron",
 		"apron",
 		"short apron",
-		"dungarees"
+		"dungarees",
+		"teddy (lingerie)",
+		"babydoll",
+		"leggings",
+		"yoga pants",
+		"yoga shorts",
+		"sports bra"
+	],
+	"dress_type": [
+		"long dress",
+		"short dress",
+		"minidress",
+		"backless dress",
+		"collared dress",
+		"frilled dress",
+		"fur-trimmed dress",
+		"halter dress",
+		"highleg dress",
+		"high-low skirt",
+		"hobble dress",
+		"impossible dress",
+		"lace-trimmed dress",
+		"layered dress",
+		"latex dress",
+		"off-shoulder dress",
+		"pleated dress",
+		"plunging neckline",
+		"ribbed dress",
+		"ribbon-trimmed dress",
+		"taut dress",
+		"see-through dress",
+		"sleeveless dress",
+		"strapless dress",
+		"cake dress",
+		"china dress",
+		"coat dress",
+		"cocktail dress",
+		"denim dress",
+		"dirndl",
+		"evening gown",
+		"flowing dress",
+		"funeral dress",
+		"gown",
+		"mermaid dress",
+		"negligee",
+		"nightgown",
+		"pencil dress",
+		"pinafore dress",
+		"sailor dress",
+		"santa dress",
+		"sundress",
+		"sweater dress",
+		"tennis dress",
+		"trapeze dress",
+		"vietnamese dress",
+		"wedding dress"
+	],
+	"skirt_type": [
+		"bubble skirt",
+		"beltskirt",
+		"bikini skirt",
+		"bow skirt",
+		"checkered skirt",
+		"denim skirt",
+		"frilled skirt",
+		"grass skirt",
+		"hakama short shirt",
+		"high-low skirt",
+		"hoop skirt",
+		"kimono skirt",
+		"layered skirt",
+		"long skirt",
+		"microskirt",
+		"miniskirt",
+		"overskirt",
+		"pleated skirt",
+		"pencil skirt",
+		"showgirl skirt",
+		"side-tie skirt",
+		"skirt suit",
+		"skirt set",
+		"spank skirt",
+		"suspender skirt"
 	],
 	"face": [
 		"pouty lips",
@@ -1834,7 +1917,7 @@
 		"torn clothes, torn"
 	],
 	"damaged_ran": [
-		"#damaged",
+		"#damaged#",
 		"",
 		"",
 		""
@@ -1884,7 +1967,7 @@
 		"shopping mall",
 		"grocery store",
 		"treehouse",
-		"parking garage"		
+		"parking garage"	
 	],
 	"location_outdoors_contemporary": [
 		"park",
@@ -1934,13 +2017,27 @@
 		"crystal cave",
 		"throne room",
 		"volcanic lair",
-		"dragon's lair"
+		"dragon's lair",
+		"banquet hall",
+		"inn",
+		"mill",
+		"farmhouse",
+		"barn",
+		"armory",
+		"royal chambers",
+		"dungeon",
+		"prison",
+		"alchemist lab",
+		"cathedral",
+		"crypt",
+		"blacksmith",
+		"store"
 	],
 	"location_outdoors_older": [
 		"middle of nowhere",
 		"wood cabin",
 		"pirate cove",
-		"beach alove",
+		"beach alcove",
 		"desert oasis",
 		"ruins of an ancient temple",
 		"bazaar",
@@ -1949,9 +2046,21 @@
 		"sky city",
 		"enchanted woods",
 		"graveyard",
-		"flower",
-		"tree",
-		"bush"
+		"blacksmith",
+		"cathedral",
+		"store",
+		"battle ground",
+		"battlefield",
+		"barn",
+		"farm",
+		"field",
+		"#location_outdoors_older_tower#"
+	],
+	"location_outdoors_older_tower": [
+		"tower",
+		"wizard's tower",
+		"alchemist's tower",
+		"necromancer's tower"
 	],
 	"props_older_indoor_only": [
 		"mug",
@@ -1979,6 +2088,11 @@
 	"location_any": [
 		"#location_contemporary#",
 		"#location_older#"
+	],
+	"time_of_day_ran": [
+		"#time_of_day#",
+		"",
+		""
 	],
 	"time_of_day": [
 		"day, #tod_day_items#, #tod_day_items#, #tod_day_items#",
@@ -2008,5 +2122,12 @@
 	],
 	"bg_any": [
 		"#genre, #location_any#"
+	],
+	"arched_or_bent": [
+		"arched back",
+		"bent over"
+	],
+	"loc_dressing_room": [
+		"dressing room, clothing store, curtain, racks of clothes, mirror, store changing room, open curtain, shoes, folded clothes, hanging clothes"
 	]
 }

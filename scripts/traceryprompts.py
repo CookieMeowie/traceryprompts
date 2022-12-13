@@ -46,19 +46,17 @@ class Script(scripts.Script):
         with open(scripts.basedir() + DEFAULT_PATH) as data_file:
             rules_dict = json.load(data_file)
 
-        with gr.Row():
-            gr.HTML("<div width=\"100%\" style=\"background-color:black;margin-bottom:1em;margin-top:1em;align:center\"><p><h1><b>Ultimate Randomizer of Ultimate Fun</b></h1></p></div>")
-
-        with gr.Row():
-            showp = gr.Checkbox(label="Show prompt in console", value=True)
-
         if len(rules_dict) == 0:
             print(f"\nInvalid grammar. No rules specified.")
             gr.Markdown("Error: Could not read rules.json!")
             return [ showp ]
-
-        with gr.Row():
-            gr.HTML("<div style=\"margin-bottom:1em;margin-top:1em;align:center\"><p><b>Reference:</b></p></div>")
+        
+        gr.Column()
+        gr.Markdown("# Ultimate Randomizer of Ultimate Fun")
+        gr.Markdown("With Tracery Prompts as the active script you can use any of the lists below in place of tokens and they will be replaced, randomly at generation time.")
+        gr.Markdown("## Expamle:")
+        gr.Markdown(">best quality, 1girl, mature female, \#hair_colour\#, \#hairstyle\#, very long hair, \#iris_colour\#, wearing a white (\#dress\#:1.2) and #female_clothing#")
+        gr.Markdown("## Reference:")
 
         keys = list(rules_dict.keys())
         # order
@@ -82,6 +80,10 @@ class Script(scripts.Script):
                 i += 1
                 if i >= len(keys):
                     break
+        
+        with gr.Row():
+            gr.Markdown("# Debug")
+            showp = gr.Checkbox(label="Show prompt in console", value=True)
 
         return [ showp ]
 
