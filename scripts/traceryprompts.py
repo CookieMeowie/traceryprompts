@@ -54,7 +54,7 @@ class Script(scripts.Script):
         gr.Column()
         gr.Markdown("# Ultimate Randomizer of Ultimate Fun")
         gr.Markdown("With Tracery Prompts as the active script you can use any of the lists below in place of tokens and they will be replaced, randomly at generation time.")
-        gr.Markdown("## Expamle:")
+        gr.Markdown("## Example:")
         gr.Markdown(">best quality, 1girl, mature female, \#hair_colour\#, \#hairstyle\#, very long hair, \#iris_colour\#, wearing a white (\#dress\#:1.2) and #female_clothing#")
         gr.Markdown("## Reference:")
 
@@ -81,7 +81,7 @@ class Script(scripts.Script):
                 if i >= len(keys):
                     break
         
-        with gr.Row():
+        with gr.Column():
             gr.Markdown("# Debug")
             showp = gr.Checkbox(label="Show prompt in console", value=True)
 
