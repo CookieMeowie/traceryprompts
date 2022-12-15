@@ -48,6 +48,10 @@ class Script(scripts.Script):
 # Most UI components can return a value, such as a boolean for a checkbox.
 # The returned values are passed to the run method as parameters.
     def ui(self, is_img2img):
+        with gr.Column():
+            btn = gr.Button("Reload JSON")
+            btn.click(self.do_btn_reload_json)
+
         if not self.json_loaded:
             print("Ui calling load with " + str(len(self.rules_dict)) + " keys already loaded.")
             self.load_json()
@@ -57,7 +61,6 @@ class Script(scripts.Script):
             gr.Markdown("Error: Could not read rules.json!")
             return [ True ]
         
-        gr.Column()
         gr.Markdown("# Ultimate Randomizer of Ultimate Fun")
         gr.Markdown("With Tracery Prompts as the active script you can use the key of any of the lists below in place of tokens and they will be randomly replaced at generation time.")
         gr.Markdown("## Example:")
@@ -165,3 +168,5 @@ class Script(scripts.Script):
         
         print("Done. Loaded: " + str(len(self.rules_dict)) + " entries.")
         
+    def do_btn_reload_json(self):
+        self.load_json()

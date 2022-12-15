@@ -1,5 +1,10 @@
 {
-	"copywright": [
+	"lighting": [
+		"backlighting",
+		"caustics",
+		"sidelighting"
+	],
+	"copyright": [
 		"Amphibia",
 		"Arknights",
 		"Asagao To Kase-San",
@@ -2126,5 +2131,35 @@
 	"arched_or_bent": [
 		"arched back",
 		"bent over"
+	],
+	"loc_contemporary_bedroom": [
+		"indoors, bedroom, bed, pillow, #props_contemporary_household_general#"
+	],
+	"loc_contemporary_bathroom": [
+		"indoors, bathroom, bath"
+	],
+	"loc_contemporary_kitchen": [
+		"indoors, kitchen"
+	],
+	"loc_contemporary_livingroom": [
+		"indoors, living room"
+	],
+	"props_contemporary_household_general": [
+		"chair", 
+		"table",
+		"clock",
+		"decoration",
+		"wallpaper",
+		"wood panel",
+		"picture frame",
+		"picture (object)",
+		"drawer",
+		"chest of drawers",
+		"open drawer",
+		"cabinet",
+		"bookshelf",
+		"book",
+		"television",
+		"fireplace"
 	]
 }
