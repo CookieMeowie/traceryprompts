@@ -28,5 +28,11 @@
     ],
     "bg_house_garden": [
         "building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree, blue sky, cloud"
+    ],
+    "bg_dungeon_loot": [
+        "dungeon, rpg, treasure chest, jewels, (loot:1), gold, (gold coins:1.1), coins, (embers:1.2), shadows, maps, clutter"
+    ],
+    "bg_fantasy_night_river": [
+        "scenery, river, riverbank, reflection, night, moon, moonlight, (lantern festival, sky lantern:1.2), bridge"
     ]
 }
