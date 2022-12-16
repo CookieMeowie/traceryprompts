@@ -34,5 +34,8 @@
     ],
     "bg_fantasy_night_river": [
         "scenery, river, riverbank, reflection, night, moon, moonlight, (lantern festival, sky lantern:1.2), bridge"
+    ],
+    "bg_onsen": [
+        "hotsprings, water, reflection, (boulder:0.9), (nature:0.9), (night:1.1), (lanterns:0.8), (trees:0.8), (inn:0.9)"
     ]
 }
