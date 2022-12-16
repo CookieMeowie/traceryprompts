@@ -1,0 +1,15 @@
+{
+    "shot_type": [
+        "#close_framing, #upper_clothes",
+        "far_framing, #clothes#"
+    ],
+    "clothes": [
+        "#lower_clothes#, #upper_clothes#"
+    ],
+    "upper_clothes": [
+        "crop top, single pauldron, spiked pauldron, spiked gauntlets, strap"
+    ],
+    "lower_clothes": [
+        "short shorts, thigh high boots"
+    ]
+}

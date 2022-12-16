@@ -1,0 +1,68 @@
+{
+    "props_contemporary_household_general": [
+        "book",
+        "bookshelf",
+        "cabinet",
+        "chair",
+        "chest of drawers",
+        "clock",
+        "decoration",
+        "drawer",
+        "fireplace",
+        "open drawer",
+        "picture (object)",
+        "picture frame",
+        "table",
+        "television",
+        "wallpaper",
+        "wood panel"
+    ],
+    "props_contemporary_indoor_only": [
+        "bed",
+        "bookshelf",
+        "chair",
+        "couch",
+        "cushion",
+        "desk",
+        "paper",
+        "pillow",
+        "stuffed animal",
+        "table",
+        "wall clock",
+        "window",
+        "wooden"
+    ],
+    "props_contemporary_outdoor_only": [
+        "architecture",
+        "brick",
+        "building",
+        "bush",
+        "fence",
+        "grass",
+        "hedge",
+        "tree"
+    ],
+    "props_older_indoor_only": [
+        "bottle",
+        "chair",
+        "curtain",
+        "grandfather clock",
+        "mounted head",
+        "mug",
+        "shield",
+        "table",
+        "tapestry",
+        "wall hanging"
+    ],
+    "props_older_outdoor_only": [
+        "architecture",
+        "boulder",
+        "bush",
+        "castle",
+        "cottage",
+        "flower",
+        "rubble",
+        "ruins",
+        "tree"
+    ]
+}

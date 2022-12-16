@@ -1,0 +1,15 @@
+{
+    "ran_perspectives_common": [
+        "#perspectives_common#",
+        "",
+        "",
+        ""
+    ],
+    "perspectives_common": [
+        "dutch angle",
+        "from above",
+        "from below",
+        "pov",
+        "vanishing point"
+    ]
+}

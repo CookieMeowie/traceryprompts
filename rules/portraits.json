@@ -1,0 +1,30 @@
+{
+    "random_portrait": [
+        "portrait, #ran_portrait_behind#, #torso_posture#, #arm_posture#"
+    ],
+    "portrait_front": [
+        "portrait, facing viewer, #ran_portrait_looking#"
+    ],
+    "portrait_behind": [
+        "portrait, from behind, #ran_portrait_looking#",
+        "portrait, from behind, #ran_portrait_looking#"
+    ],
+    "portrait_looking": [
+        "looking at viewer",
+        "looking back",
+        "looking to the side",
+        "looking away",
+        "looking afar",
+        "looking ahead"
+    ],
+    "portrait_framing": [
+		"face",
+		"upper body"
+	],
+    "chance_pose_chance_1-4": [
+        "#pose_posture#",
+        "",
+        "",
+        ""
+    ]
+}

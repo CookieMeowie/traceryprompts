@@ -1,0 +1,32 @@
+{
+    "bg_fantasy_lab": [
+        "laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
+    ],
+    "bg_fantasy_classroom": [
+        "school, classroom, wooden wall, picture frame, chair, desk, chalkboard, book, bookshelf, papers, chandelier, candles, curtain, window, shelves, window"
+    ],
+    "bg_landscape_field": [
+        "scenery, landscape, field, wheat field, tall grass, tree, mountain, plains, flower, bush, cottage, hedgerows, country road"
+    ],
+    "bg_magical_forest": [
+        "magical forest, giant tree trunk, overgrown, rough bark, vines, brambles, field, mountain"
+    ],
+    "bg_contemporary_bedroom": [
+        "indoors, bedroom, bed, pillow, #props_contemporary_household_general#"
+    ],
+    "bg_spacestation": [
+        "spacestation, indoors, large window, sci-fi hallway, pipes, tubes, wires, panels, disrepair"
+    ],
+    "bg_fantasy_night_forest": [
+        "night, moonlight, stars, full moon, ((battlefield:1.1), flower field, rubble, tree, boulder:1.2), (crystal cave:1)"
+    ],
+    "bg_fantasy_harbor": [
+        "architecture, ocean, waves, harbor, sailing ship, building, fantasy, rpg, city, people, blue sky, sun, light rays"
+    ],
+    "bg_fantasy_city": [
+        "town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
+    ],
+    "bg_house_garden": [
+        "building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree, blue sky, cloud"
+    ]
+}

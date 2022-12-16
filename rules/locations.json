@@ -1,0 +1,83 @@
+{
+    "location_contemporary": [
+        "#location_indoors_contemporary#, #props_contemporary_indoor_only#, #props_contemporary_indoor_only#, #props_contemporary_indoor_only#, clutter",
+        "#location_outdoors_contemporary#, #props_contemporary_outdoor_only#, #props_contemporary_outdoor_only#, #props_contemporary_outdoor_only#, clutter"
+    ],
+    "location_indoors_contemporary": [
+        "bedroom",
+        "grocery store",
+        "gym",
+        "kitchen",
+        "parking garage",
+        "shopping mall",
+        "treehouse"
+    ],
+    "location_indoors_older": [
+        "alchemist lab",
+        "armory",
+        "banquet hall",
+        "barn",
+        "bedroom",
+        "blacksmith",
+        "cathedral",
+        "crypt",
+        "crystal cave",
+        "dragon's lair",
+        "dungeon",
+        "farmhouse",
+        "guild hall",
+        "inn",
+        "kitchen",
+        "mill",
+        "prison",
+        "royal chambers",
+        "store",
+        "tavern",
+        "throne room",
+        "volcanic lair"
+    ],
+    "location_older": [
+        "#location_indoors_older#, #props_older_indoor_only#, #props_older_indoor_only#, #props_older_indoor_only#",
+        "#location_outdoors_older#, #props_older_outdoor_only#, #props_older_outdoor_only#, #props_older_outdoor_only#"
+    ],
+    "location_outdoors_contemporary": [
+        "block party",
+        "cabin in the woods",
+        "field",
+        "forest",
+        "gas station",
+        "graveyard",
+        "middle of nowhere",
+        "park",
+        "valley"
+    ],
+    "location_outdoors_older": [
+        "#location_outdoors_older_tower#",
+        "a mountain pass",
+        "barn",
+        "battle ground",
+        "battlefield",
+        "bazaar",
+        "beach alcove",
+        "blacksmith",
+        "cathedral",
+        "desert oasis",
+        "enchanted woods",
+        "farm",
+        "field",
+        "graveyard",
+        "middle of nowhere",
+        "pirate cove",
+        "ruins of an ancient temple",
+        "sky city",
+        "store",
+        "trading output",
+        "wood cabin"
+    ],
+    "location_outdoors_older_tower": [
+        "alchemist's tower",
+        "necromancer's tower",
+        "tower",
+        "wizard's tower"
+    ]
+}
