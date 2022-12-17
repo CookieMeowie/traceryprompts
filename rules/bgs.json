@@ -10,7 +10,8 @@
         "#bg_dungeon_loot#",
         "#bg_house_garden#",
         "#bg_fantasy_night_river#",
-        "#bg_onsen#"
+        "#bg_onsen#",
+        "#bg_mountainpass#"
     ],
     "bg_modifier": [
         "overgrown",
@@ -57,5 +58,11 @@
     ],
     "bg_onsen": [
         "hotsprings, water, reflection, (boulder:0.9), (nature:0.9), (night:1.1), (lanterns:0.8), (trees:0.8), (inn:0.9)"
+    ],
+    "bg_postapoc_western": [
+        "post-apocalypse, wasteland, desert, cactus, sunlight, sun, blue sky, clear sky, tumbleweed, horse, saloon, cowboy, western"
+    ],
+    "bg_mountainpass": [
+        "(a mountain pass, cottage, tree, flower:1.2), (barn, table, tapestry:0.9), (clutter:1.2)"
     ]
 }

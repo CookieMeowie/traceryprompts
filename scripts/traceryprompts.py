@@ -90,6 +90,7 @@ class Script(scripts.Script):
                 *Use these modifiers to only place certain rules in the prompt a pecentage of the time.*
 
                 - *ran1in2* Will only add the specified rule 50% of the time
+                - *ran1in3* Will only add the specified rule 33.3% of the time
                 - *ran1in4* Will only add the specified rule 25% of the time
                 - *ran1in8* Will only add the specified rule 12.5% of the time
 
@@ -99,6 +100,7 @@ class Script(scripts.Script):
 
                 - *rw* Assigns a random weight between 0.0 and 2.0 to the result of this rule
                 - *rwh* Assigns a random weight between 0.5 and 1.5 to the result of this rule. The H stands for half. 
+                - *rwq* Assigns a random weight between 0.75 and 1.25 to the result of this rule. The Q stands for quarter.
 
                 **Quick Weighting**
 
@@ -244,6 +246,9 @@ class Script(scripts.Script):
 def ran1in2(text, *params):
     return random.choice([text, ""])
 
+def ran1in3(text, *params):
+    return random.choice([text, "", ""])
+
 def ran1in4(text, *params):
     return random.choice([text, "", "", ""])
 
@@ -313,8 +318,12 @@ def rw(text, *params):
 def rwh(text, *params):
     return "(" + text + ":" + str(0.5 + random.random()) + ")"
 
+def rwq(text, *params):
+    return "(" + text + ":" + str(0.75 + random.random() * 0.5) + ")"
+
 modifiers = {
     "ran1in2": ran1in2,
+    "ran1in3": ran1in3,
     "ran1in4": ran1in4,
     "ran1in8": ran1in8,
     "w1-1": w1,
