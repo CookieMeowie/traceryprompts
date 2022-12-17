@@ -112,7 +112,7 @@ class Script(scripts.Script):
                 Navigate to the stable-diffusion-webui/extensions/traceryprompts/rules directory and you will find .json files containing the rules. You can add your own .json files here and they will be merged in to the rest of the rules.
                 Use the **Reload JSON** button above to refresh any changes in the json without restarting Automatic1111.
                 ## Notes
-                - The dropdowns below don't do anything. They're just here to help you reference the keys and explore the lists for ideas.
+                - The dropdowns in the Reference tab don't do anything. They're just here to help you reference the keys and explore the lists for ideas.
                 - It's very easy to forget the trailing #
 
 
@@ -251,79 +251,60 @@ def ran1in8(text, *params):
     return random.choice([text, "", "", "", "", "", "", ""])
 
 def w1(text, *params):
-    print(params)
     return "(" + text + ":1.1)"
 
 def w2(text, *params):
-    print(params)
     return "(" + text + ":1.2)"
 
 def w3(text, *params):
-    print(params)
     return "(" + text + ":1.3)"
 
 def w4(text, *params):
-    print(params)
     return "(" + text + ":1.4)"
 
 def w5(text, *params):
-    print(params)
     return "(" + text + ":1.5)"
 
 def w6(text, *params):
-    print(params)
     return "(" + text + ":1.6)"
 
 def w7(text, *params):
-    print(params)
     return "(" + text + ":1.7)"
 
 def w8(text, *params):
-    print(params)
     return "(" + text + ":1.8)"
 
 def w9(text, *params):
-    print(params)
     return "(" + text + ":1.9)"
 
 def w10(text, *params):
-    print(params)
     return "(" + text + ":2.0)"
 
 def wn1(text, *params):
-    print(params)
     return "(" + text + ":0.1)"
 
 def wn2(text, *params):
-    print(params)
     return "(" + text + ":0.2)"
 
 def wn3(text, *params):
-    print(params)
     return "(" + text + ":0.3)"
 
 def wn4(text, *params):
-    print(params)
     return "(" + text + ":0.4)"
 
 def wn5(text, *params):
-    print(params)
     return "(" + text + ":0.5)"
 
 def wn6(text, *params):
-    print(params)
     return "(" + text + ":0.6)"
 
 def wn7(text, *params):
-    print(params)
     return "(" + text + ":0.7)"
 
 def wn8(text, *params):
-    print(params)
     return "(" + text + ":0.8)"
 
 def wn9(text, *params):
-    print(params)
     return "(" + text + ":0.9)"
 
 def rw(text, *params):

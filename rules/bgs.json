@@ -1,4 +1,18 @@
 {
+    "ranbg_fantasy": [
+        "#bg_fantasy_lab#",
+        "#bg_fantasy_classroom#",
+        "#bg_landscape_field#",
+        "#bg_magical_forest#",
+        "#bg_fantasy_night_forest#",
+        "#bg_fantasy_harbor#",
+        "#bg_fantasy_city#",
+        "#bg_dungeon_loot#",
+        "#bg_house_garden#",
+        "#bg_fantasy_night_river#",
+        "#bg_onsen"
+    ],
+
     "bg_fantasy_lab": [
         "laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
     ],
