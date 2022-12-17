@@ -1,6 +1,6 @@
 {
     "lewd": [
-        "nsfw, sexually suggestive, #lewd_boobs#, #lewd_pussy#, #damaged_ran#"
+        "nsfw, sexually suggestive, #lewd_boobs.ran1in4#, #lewd_pussy.ran1in4#, #damaged.ran1in4#"
     ],
     "lewd_boobs": [
         "#lewd_boobs_nipples# nipples",
@@ -14,21 +14,13 @@
         "puffy"
     ],
     "lewd_pussy": [
-        "",
         "upskirt #lewd_pussy_cameltoe1#"
     ],
     "lewd_pussy_cameltoe1": [
-        "cameltoe #lewd_pussy_cameltoe2# #lewd_pussy_cameltoe2#"
+        "cameltoe #lewd_pussy_cameltoe2.ran1in2# #lewd_pussy_cameltoe2.ran1in4#"
     ],
-    "lewd_pussy_cameltoe2": [
-        "",
+    "lewd_pussy_cameltoe2": [        
         "cleft of venus",
         "fat mons"
-    ],
-    "lewd_ran": [
-        "",
-        "",
-        "",
-        "#lewd#"
     ]
 }

@@ -1064,12 +1064,6 @@
     "damaged_blood": [
         "(torn clothes, torn:1.3), injured, blood, bloodstain"
     ],
-    "damaged_ran": [
-        "",
-        "",
-        "",
-        "#damaged#"
-    ],
     "dress_type": [
         "backless dress",
         "cake dress",
@@ -1816,14 +1810,6 @@
     "nipples": [
         "nipples, #nipples_visibility#"
     ],
-    "nipples_ran": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "#nipples#"
-    ],
     "nipples_visibility": [
         "covered nipples",
         "dark nipples",
@@ -1939,11 +1925,6 @@
     "time_of_day": [
         "day, #tod_day_items#, #tod_day_items#, #tod_day_items#",
         "night, #tod_night_items#, #tod_night_items#, #tod_night_items#"
-    ],
-    "time_of_day_ran": [
-        "",
-        "",
-        "#time_of_day#"
     ],
     "tod_day_items": [
         "clouds",
