@@ -102,7 +102,7 @@ class Script(scripts.Script):
 
                 **Quick Weighting**
 
-                *Quick weights can quickly give your rule any weight from 0.1 to 2.0. For the sake of brevity they haven't all been listed.*
+                *Quick weights can quickly give your rule any weight from 0.1 to 2.0 in increments of 0.1. For the sake of brevity they haven't all been listed.*
                 - *w1-1* Give the result a weight of 1.1
                 - *w0-1* Lowest available
                 - *w2-0* Highest available
