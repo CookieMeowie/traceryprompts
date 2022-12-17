@@ -10,9 +10,15 @@
         "#bg_dungeon_loot#",
         "#bg_house_garden#",
         "#bg_fantasy_night_river#",
-        "#bg_onsen"
+        "#bg_onsen#"
     ],
-
+    "bg_modifier": [
+        "overgrown",
+        "ruins",
+        "wet",
+        "infected",
+        "alien"
+    ],
     "bg_fantasy_lab": [
         "laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
     ],
