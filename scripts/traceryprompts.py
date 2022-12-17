@@ -15,6 +15,7 @@ from modules import images, processing, prompt_parser, scripts, shared
 from modules.processing import Processed, process_images
 from modules.shared import cmd_opts, opts, state
 
+
 DEFAULT_RULES = "{\n\"origin\": \"#hello.capitalize#, #location#!\",\n\"hello\": [\"hello\", \"greetings\", \"howdy\", \"hey\"],\n\"location\": [\"world\", \"solor system\", \"galaxy\", \"universe\"]\n}"
 DEFAULT_RULES_PATH = "\\extensions\\traceryprompts\\mainrules.json"
 RULES_DIR_PATH = "\\extensions\\traceryprompts\\rules"
@@ -48,54 +49,104 @@ class Script(scripts.Script):
 # Most UI components can return a value, such as a boolean for a checkbox.
 # The returned values are passed to the run method as parameters.
     def ui(self, is_img2img):
-        with gr.Column():
-            btn = gr.Button("Reload JSON")
-            btn.click(self.do_btn_reload_json)
+        showp:bool = False
 
-        if not self.json_loaded:
-            print("Ui calling load with " + str(len(self.rules_dict)) + " keys already loaded.")
-            self.load_json()
+        with gr.Tab("Info"):
 
-        if len(self.rules_dict) == 0:
-            print(f"\nInvalid grammar. No rules specified.")
-            gr.Markdown("Error: Could not read rules.json!")
-            return [ True ]
-        
-        gr.Markdown("# Ultimate Randomizer of Ultimate Fun")
-        gr.Markdown("With Tracery Prompts as the active script you can use the key of any of the lists below in place of tokens and they will be randomly replaced at generation time.")
-        gr.Markdown("## Example:")
-        gr.Markdown(">best quality, 1girl, mature female, \#hair_colour\#, \#hairstyle\#, very long hair, \#iris_colour\#, wearing a white (\#dress\#:1.2) and #female_clothing#")
-        gr.Markdown("## Notes:")
-        gr.Markdown("- Check the prompt in your final image. If you see any of the keys in the promt surrounded by double parenthesis like ((hair_color)), then that key was not recognised and you probably spelt it wrong or forgot to include surrounding \# \n- These dropdowns don't do anything. They're just here to help you reference the keys and explore the lists for ideas.")
-        gr.Markdown("")
-        gr.Markdown("## Reference:")
-
-        keys = list(self.rules_dict.keys())
-        # order
-        keys.sort()
-        i = 0
-        while True:
             with gr.Row():
-                gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
-                i += 1
-                if i >= len(keys):
-                    break
-                gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
-                i += 1
-                if i >= len(keys):
-                    break
-                gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
-                i += 1
-                if i >= len(keys):
-                    break
-                gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
-                i += 1
-                if i >= len(keys):
-                    break
+                btn = gr.Button("Reload JSON")
+                btn.click(self.do_btn_reload_json)
+
+            if not self.json_loaded:
+                print("Ui calling load with " + str(len(self.rules_dict)) + " keys already loaded.")
+                self.load_json()
+
+            if len(self.rules_dict) == 0:
+                print(f"\nInvalid grammar. No rules specified.")
+                gr.Markdown("Error: Could not read rules.json!") 
+                return [ showp ]
+            
+            gr.Markdown("""
+
+                # Tracery Prompts
+
+                ## Description
+                With TraceryPrompts as the active script you can use the name of any of the lists below, surrounded by # in the place of tokens and they will be randomly replaced at generation time. Check the example.
+
+                Check the resulting image's prompt to see the results and check for any issues. Rules surrounded by ((double_parenthesis)) have not been recognised. Check your spelling.
+
+                Currently only works in the positive prompt.
+
+                ## Example Prompt
+                > best quality, 1girl, mature female, #hair_colour#, #hairstyle#, very long hair, #iris_colour#, wearing a white (#dress#:1.2) and #female_clothing#
+
+                ## Modifiers
+                There are several modifiers available to help you.
+
+                To use a modifier write a . after the rule name and then the name of the modifier. For example #hair_accent.ran1in2#
+
+                **Randomizing**
+
+                *Use these modifiers to only place certain rules in the prompt a pecentage of the time.*
+
+                - *ran1in2* Will only add the specified rule 50% of the time
+                - *ran1in4* Will only add the specified rule 25% of the time
+                - *ran1in8* Will only add the specified rule 12.5% of the time
+
+                **Random Weights**
+
+                *Randomly weight something. Try it with #art_movement.rw#*
+
+                - *rw* Assigns a random weight between 0.0 and 2.0 to the result of this rule
+                - *rwh* Assigns a random weight between 0.5 and 1.5 to the result of this rule. The H stands for half. 
+
+                **Quick Weighting**
+
+                *Quick weights can quickly give your rule any weight from 0.1 to 2.0. For the sake of brevity they haven't all been listed.*
+                - *w1-1* Give the result a weight of 1.1
+                - *w0-1* Lowest available
+                - *w2-0* Highest available
+
+                ## Customising
+
+                Navigate to the stable-diffusion-webui/extensions/traceryprompts/rules directory and you will find .json files containing the rules. You can add your own .json files here and they will be merged in to the rest of the rules.
+                Use the **Reload JSON** button above to refresh any changes in the json without restarting Automatic1111.
+                ## Notes
+                - The dropdowns below don't do anything. They're just here to help you reference the keys and explore the lists for ideas.
+                - It's very easy to forget the trailing #
+
+
+
+                """)
         
-        with gr.Column():
-            gr.Markdown("# Debug")
-            showp = gr.Checkbox(label="Show prompt in console", value=True)
+        with gr.Tab("Reference"):
+
+            keys = list(self.rules_dict.keys())
+            # order
+            keys.sort()
+            i = 0
+            while True:
+                with gr.Row():
+                    gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
+                    i += 1
+                    if i >= len(keys):
+                        break
+                    gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
+                    i += 1
+                    if i >= len(keys):
+                        break
+                    gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
+                    i += 1
+                    if i >= len(keys):
+                        break
+                    gr.Dropdown(self.rules_dict[keys[i]], label=keys[i])
+                    i += 1
+                    if i >= len(keys):
+                        break
+            
+            with gr.Column():
+                gr.Markdown("# Debug")
+                showp = gr.Checkbox(label="Show prompt in console", value=False)
 
         return [ showp ]
 
@@ -111,6 +162,7 @@ class Script(scripts.Script):
 
         # Finalise tracery
         grammar = tracery.Grammar(self.rules_dict)
+        grammar.add_modifiers(modifiers)
 
         # Prep for iterating
         BatchSize = p.batch_size
@@ -170,3 +222,139 @@ class Script(scripts.Script):
         
     def do_btn_reload_json(self):
         self.load_json()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def ran1in2(text, *params):
+    return random.choice([text, ""])
+
+def ran1in4(text, *params):
+    return random.choice([text, "", "", ""])
+
+def ran1in8(text, *params):
+    return random.choice([text, "", "", "", "", "", "", ""])
+
+def w1(text, *params):
+    print(params)
+    return "(" + text + ":1.1)"
+
+def w2(text, *params):
+    print(params)
+    return "(" + text + ":1.2)"
+
+def w3(text, *params):
+    print(params)
+    return "(" + text + ":1.3)"
+
+def w4(text, *params):
+    print(params)
+    return "(" + text + ":1.4)"
+
+def w5(text, *params):
+    print(params)
+    return "(" + text + ":1.5)"
+
+def w6(text, *params):
+    print(params)
+    return "(" + text + ":1.6)"
+
+def w7(text, *params):
+    print(params)
+    return "(" + text + ":1.7)"
+
+def w8(text, *params):
+    print(params)
+    return "(" + text + ":1.8)"
+
+def w9(text, *params):
+    print(params)
+    return "(" + text + ":1.9)"
+
+def w10(text, *params):
+    print(params)
+    return "(" + text + ":2.0)"
+
+def wn1(text, *params):
+    print(params)
+    return "(" + text + ":0.1)"
+
+def wn2(text, *params):
+    print(params)
+    return "(" + text + ":0.2)"
+
+def wn3(text, *params):
+    print(params)
+    return "(" + text + ":0.3)"
+
+def wn4(text, *params):
+    print(params)
+    return "(" + text + ":0.4)"
+
+def wn5(text, *params):
+    print(params)
+    return "(" + text + ":0.5)"
+
+def wn6(text, *params):
+    print(params)
+    return "(" + text + ":0.6)"
+
+def wn7(text, *params):
+    print(params)
+    return "(" + text + ":0.7)"
+
+def wn8(text, *params):
+    print(params)
+    return "(" + text + ":0.8)"
+
+def wn9(text, *params):
+    print(params)
+    return "(" + text + ":0.9)"
+
+def rw(text, *params):
+    return "(" + text + ":" + str(random.random() * 2.0) + ")"
+
+def rwh(text, *params):
+    return "(" + text + ":" + str(0.5 + random.random()) + ")"
+
+modifiers = {
+    "ran1in2": ran1in2,
+    "ran1in4": ran1in4,
+    "ran1in8": ran1in8,
+    "w1-1": w1,
+    "w1-2": w2,
+    "w1-3": w3,
+    "w1-4": w4,
+    "w1-5": w5,
+    "w1-6": w6,
+    "w1-7": w7,
+    "w1-8": w8,
+    "w1-9": w9,
+    "w2-0": w10,
+    "w0-1": wn1,
+    "w0-2": wn2,
+    "w0-3": wn3,
+    "w0-4": wn4,
+    "w0-5": wn5,
+    "w0-6": wn6,
+    "w0-7": wn7,
+    "w0-8": wn8,
+    "w0-9": wn9,
+    "rw": rw,
+    "rwh": rwh
+}
