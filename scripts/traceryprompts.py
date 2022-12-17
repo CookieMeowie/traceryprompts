@@ -71,7 +71,7 @@ class Script(scripts.Script):
                 # Tracery Prompts
 
                 ## Description
-                With TraceryPrompts as the active script you can use the name of any of the lists below, surrounded by # in the place of tokens and they will be randomly replaced at generation time. Check the example.
+                With TraceryPrompts as the active script you can use the name of any of the lists in the Reference tab, surrounded by # in the place of tokens and they will be randomly replaced at generation time. Check the example.
 
                 Check the resulting image's prompt to see the results and check for any issues. Rules surrounded by ((double_parenthesis)) have not been recognised. Check your spelling.
 
