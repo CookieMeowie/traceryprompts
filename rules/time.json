@@ -1,0 +1,9 @@
+{
+    "time_of_day": [
+        "day",
+        "night",
+        "sunset",
+        "dawn",
+        "dusk"
+    ]
+}

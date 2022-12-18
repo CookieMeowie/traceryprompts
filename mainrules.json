@@ -1252,11 +1252,11 @@
     "framing_near": [
         "face",
         "portrait",
-        "upper body"
+        "upper body",
+        "close-up",
+        "cut-in"
     ],
     "framing_far": [
-        "close-up",
-        "cut-in",
         "full body",
         "very wide shot",
         "wide shot"

@@ -1,0 +1,13 @@
+{
+    "weather": [
+        "clear sky",
+        "sun, sunlight, cloud",
+        "sun, sunlight, cloudy sky",
+        "sun, sunlight",
+        "rain, cloudy sky",
+        "storm, cloudy sky",
+        "cloudy sky, storm, lightning",
+        "snow, snowing",
+        "fog"
+    ]
+}

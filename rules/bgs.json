@@ -4,65 +4,80 @@
         "#bg_fantasy_classroom#",
         "#bg_landscape_field#",
         "#bg_magical_forest#",
-        "#bg_fantasy_night_forest#",
+        "#bg_fantasy_forest#",
         "#bg_fantasy_harbor#",
         "#bg_fantasy_city#",
         "#bg_dungeon_loot#",
         "#bg_house_garden#",
         "#bg_fantasy_night_river#",
         "#bg_onsen#",
-        "#bg_mountainpass#"
+        "#bg_mountainpass#",
+        "#bg_bright_city#",
+        "#bg_castle_hill#"
     ],
-    "bg_modifier": [
+    "bg_modifier_fantasy": [
+        "overgrown",
+        "ruins"
+    ],
+    "bg_modifier_all": [
         "overgrown",
         "ruins",
         "wet",
         "infected",
         "alien"
     ],
+    "bg_modern_city": [
+        "outdoors, city, street, storefront, skyscraper, advertising, sign, road sign"
+    ],
     "bg_fantasy_lab": [
-        "laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
+        "indoors, laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
     ],
     "bg_fantasy_classroom": [
-        "school, classroom, wooden wall, picture frame, chair, desk, chalkboard, book, bookshelf, papers, chandelier, candles, curtain, window, shelves, window"
+        "indoors, school, classroom, wooden wall, picture frame, chair, desk, chalkboard, book, bookshelf, papers, chandelier, candles, curtain, window, shelves, window"
     ],
     "bg_landscape_field": [
-        "scenery, landscape, field, wheat field, tall grass, tree, mountain, plains, flower, bush, cottage, hedgerows, country road"
+        "outdoors, scenery, landscape, field, wheat field, tall grass, tree, mountain, plains, flower, bush, cottage, hedgerows, country road"
     ],
     "bg_magical_forest": [
-        "magical forest, giant tree trunk, overgrown, rough bark, vines, brambles, field, mountain"
+        "outdoors, magical forest, giant tree trunk, overgrown, rough bark, (vines:0.85), (brambles:0.7), field, mountain"
     ],
     "bg_contemporary_bedroom": [
         "indoors, bedroom, bed, pillow, #props_contemporary_household_general#"
     ],
     "bg_spacestation": [
-        "spacestation, indoors, large window, sci-fi hallway, pipes, tubes, wires, panels, disrepair"
+        "indoors, spacestation, large window, sci-fi hallway, pipes, tubes, wires, panels, disrepair"
     ],
-    "bg_fantasy_night_forest": [
-        "night, moonlight, stars, full moon, ((battlefield:1.1), flower field, rubble, tree, boulder:1.2), (crystal cave:1)"
+    "bg_fantasy_forest": [
+        "outdoors, ((battlefield:1.1), flower field, rubble, tree, boulder:1.2), (crystal cave:1)"
     ],
     "bg_fantasy_harbor": [
-        "architecture, ocean, waves, harbor, sailing ship, building, fantasy, rpg, city, people, blue sky, sun, light rays"
+        "outdoors, architecture, ocean, waves, harbor, sailing ship, building, fantasy, rpg, city, people"
     ],
     "bg_fantasy_city": [
-        "town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
+        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
     ],
     "bg_house_garden": [
-        "building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree, blue sky, cloud"
+        "outdoors, building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree"
     ],
     "bg_dungeon_loot": [
-        "dungeon, rpg, treasure chest, jewels, (loot:1), gold, (gold coins:1.1), coins, (embers:1.2), shadows, maps, clutter"
+        "indoors, dungeon, rpg, treasure chest, jewels, (loot:1), gold, (gold coins:1.1), coins, (embers:1.2), shadows, maps, clutter"
     ],
     "bg_fantasy_night_river": [
-        "scenery, river, riverbank, reflection, night, moon, moonlight, (lantern festival, sky lantern:1.2), bridge"
+        "outdoors, scenery, river, riverbank, reflection, (lantern festival, sky lantern:1.2), bridge"
     ],
     "bg_onsen": [
-        "hotsprings, water, reflection, (boulder:0.9), (nature:0.9), (night:1.1), (lanterns:0.8), (trees:0.8), (inn:0.9)"
+        "outdoors, hotsprings, water, reflection, (boulder:0.9), (nature:0.9), (night:1.1), (lanterns:0.8), (trees:0.8), (inn:0.9)"
     ],
     "bg_postapoc_western": [
-        "post-apocalypse, wasteland, desert, cactus, sunlight, sun, blue sky, clear sky, tumbleweed, horse, saloon, cowboy, western"
+        "outdoors, post-apocalypse, wasteland, desert, cactus, tumbleweed, horse, saloon, cowboy, western, brush"
     ],
     "bg_mountainpass": [
-        "(a mountain pass, cottage, tree, flower:1.2), (barn, table, tapestry:0.9), (clutter:1.2)"
+        "outdoors, (a mountain pass, cottage, tree, flower:1.2), (barn, table, tapestry:0.9), (clutter:1.2)"
+    ],
+    "bg_bright_city": [
+        "outdoors, architecture, building, rpg, city, people, crowded"
+    ],
+    "bg_castle_hill": [
+        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
     ]
 }
