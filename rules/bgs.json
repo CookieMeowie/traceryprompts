@@ -1,23 +1,8 @@
 {
-    "ranbg_fantasy": [
-        "#bg_fantasy_lab#",
-        "#bg_fantasy_classroom#",
-        "#bg_landscape_field#",
-        "#bg_magical_forest#",
-        "#bg_fantasy_forest#",
-        "#bg_fantasy_harbor#",
-        "#bg_fantasy_city#",
-        "#bg_dungeon_loot#",
-        "#bg_house_garden#",
-        "#bg_fantasy_night_river#",
-        "#bg_onsen#",
-        "#bg_mountainpass#",
-        "#bg_bright_city#",
-        "#bg_castle_hill#"
-    ],
     "bg_modifier_fantasy": [
         "overgrown",
-        "ruins"
+        "ruins",
+        "clutter"
     ],
     "bg_modifier_all": [
         "overgrown",
@@ -40,6 +25,9 @@
     ],
     "bg_magical_forest": [
         "outdoors, magical forest, giant tree trunk, overgrown, rough bark, (vines:0.85), (brambles:0.7), field, mountain"
+    ],
+    "bg_fantasy_bedroom": [
+        "indoors, canopy bed, wood panel, curtain, window, candle, pillow, bedsheet, book, lantern, warm light"
     ],
     "bg_contemporary_bedroom": [
         "indoors, bedroom, bed, pillow, #props_contemporary_household_general#"
@@ -75,9 +63,36 @@
         "outdoors, (a mountain pass, cottage, tree, flower:1.2), (barn, table, tapestry:0.9), (clutter:1.2)"
     ],
     "bg_bright_city": [
-        "outdoors, architecture, building, rpg, city, people, crowded"
+        "outdoors, architecture, building, rpg, (city:1.2), building, cityscape"
     ],
     "bg_castle_hill": [
         "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
+    ],
+    "bg_church": [
+        "indoors, cathedral, candle, altar, window, stained glass, pew, church, light particles, night, shadow"
+    ],
+    "bg_goldencity": [
+        "outdoors, architecture, building, golden city, rpg, city, people, crowded"
+    ],
+    "bg_fantasy_gym": [
+        "indoors, gym, water bottle, towel, wooden panel, dumbbell, weightlifting, anvil, sconce, torch, horseshoe, dumbbell"
+    ],
+    "bg_gym": [
+        "indoors, gym, playing sports, exercise machine, weightlifting, weights, excercise, dumbbell, treadmill, basketball hoop, vaulting horse, water bottle, towel"
+    ],
+    "bg_tavern": [
+        "tavern, quest board, beer, mugs, tray, bar, fireplace, stool, torch, sconce, table, chair, lantern"
+    ],
+    "bg_wizards_tower": [
+        "indoors, tower, (stone wall:1.1), spider web, brazier, table, bookshelf, oil lamp, stack of books, papers, quill & ink, window, blue sky"
+    ],
+    "bg_wizard_school": [
+        "indoors, wood panel, classroom, desk, chair, chalkboard, oil lamp, brazier, (candles:0.75), storage boxes, hanging cloak"
+    ],
+    "bg_desert": [
+        "desert, yellow sands, dust, animal skull, rocks, dead brush, tumbleweed"
+    ],
+    "bg_saloon": [
+        "saloon, bar, glasswear, bottle, alcohol, shot glass, stool, table, cards, poker chips, piano, chandelier, stairs"
     ]
 }

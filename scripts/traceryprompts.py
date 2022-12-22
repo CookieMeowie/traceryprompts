@@ -148,7 +148,7 @@ class Script(scripts.Script):
             
             with gr.Column():
                 gr.Markdown("# Debug")
-                showp = gr.Checkbox(label="Show prompt in console", value=False)
+                showp = gr.Checkbox(value=False, label="Show prompt in console")
 
         return [ showp ]
 

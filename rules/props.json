@@ -42,7 +42,7 @@
         "hedge",
         "tree"
     ],
-    "props_older_indoor_only": [
+    "props_fantasy_indoor_only": [
         "bottle",
         "chair",
         "curtain",
@@ -52,9 +52,10 @@
         "shield",
         "table",
         "tapestry",
-        "wall hanging"
+        "wall hanging",
+        "fireplace"
     ],
-    "props_older_outdoor_only": [
+    "props_fantasy_outdoor_only": [
         "architecture",
         "boulder",
         "bush",
