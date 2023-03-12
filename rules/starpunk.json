@@ -1,0 +1,54 @@
+{
+    "starpunk_hair": [
+        "(grey hair:1.3), (very short hair:1.1), ((undercut:1.2), pixie cut, asymmetrical hair:1.2)"
+    ],
+    "starpunk_face": [
+        "aqua eyes, long eyelashes, eyeliner, beautiful detailed eyes"
+    ],
+    "starpunk_figure": [
+        "(mature female:1.3), (wide hips:1.4), (thick thighs:1.3), (gigantic breasts:1.3), (bursting breasts:1.5)"
+    ],
+    "starpunk_clothes": [
+        "#starpunk_outfit_default#",
+        "#starpunk_outfit_spacesuit#, #starpunk_helmet.ran1in2#",
+        "#starpunk_outfit_casual#",
+        "#starpunk_outfit_bodysuit#",
+        "#starpunk_outfit_sleepwear#",
+        "naked",
+        "micro bikini"
+    ],
+    "starpunk_outfit_default": [
+        "(white clothes:1.3), bodysuit, cropped jacket, ribbed sweater, cleavage cutout, hip vent, (short shorts:1.1), side slit shorts"
+    ],
+    "starpunk_outfit_spacesuit": [
+        "(white clothes:1.3), spacesuit, shorts, leggings, boots"
+    ],
+    "starpunk_outfit_casual": [
+        "(white clothes:1.3), short shorts, crop top, (crop top overhang:1.3)"
+    ],
+    "starpunk_outfit_bodysuit": [
+        "(white clothes:1.3), ribbed bodysuit, underboob, underboob cutout, chest strap, thigh strap, hip vent"
+    ],
+    "starpunk_outfit_sleepwear": [
+        "(white clothes:1.3), thong, crop top, crop top overhang, underboob, bare shoulders"
+    ],
+
+    "starpunk_helmet": [
+        "space helmet"
+    ],
+
+    "ranbg_starpunk": [
+        "#bg_spacestation#",
+        "#bg_spaceship_cockpit#",
+        "#bg_spaceship_cargohold#",
+        "#time_of_day#, #bg_alien_planet#",
+        "#time_of_day#, #bg_alien_forest#",
+        "#bg_spaceship_quarters#"
+    ],
+    "ranbg_starpunk_spaceship": [
+        "#bg_spacestation#",
+        "#bg_spaceship_cockpit#",
+        "#bg_spaceship_cargohold#",
+        "#bg_spaceship_quarters#"
+    ]
+}

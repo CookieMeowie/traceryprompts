@@ -1,5 +1,41 @@
 {
     "jacket_options": [
         "open jacket"
+    ],
+    "femclothes": [
+        "#dress_type#",
+        "#dress_type#",
+        "#dress_type#",
+        "#skirt_type#",
+        "#skirt_type#",
+        "#skirt_type#",
+        "babydoll",
+        "bike shorts",
+        "bikini",
+        "bodysuit",
+        "cheerleader uniform",
+        "corset",
+        "dungarees",
+        "halterneck",
+        "kindergarten uniform",
+        "leggings",
+        "maid uniform",
+        "micro bikini",
+        "micro panties",
+        "naked",
+        "romper",
+        "school uniform",
+        "see-through",
+        "short shorts",
+        "shorts",
+        "side slit",
+        "sideless outfit",
+        "sports bra",
+        "teddy (lingerie)",
+        "thong",
+        "waitress uniform",
+        "white panties",
+        "yoga pants",
+        "yoga shorts"
     ]
 }

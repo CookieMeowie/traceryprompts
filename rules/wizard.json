@@ -4,7 +4,7 @@
         "#ranbg_wizard_outdoors#"
     ],
     "ranbg_wizard_indoors": [
-        "#bg_wizards_tower#",
+        "#bg_wizard_tower#",
         "#bg_wizard_school#",
         "#bg_onsen#",
         "#bg_fantasy_lab#"
@@ -20,5 +20,11 @@
         "#bg_mountainpass#",
         "#bg_bright_city#",
         "#bg_castle_hill#"
+    ],
+    "spellbook": [
+        "spellbook"
+    ],
+    "wizard_clothes": [
+        "blue clothes, wizard hat, (pointy hat:1.1), long dress, (sideless outfit:1.2), belt pouch, cleavage, thigh boots"
     ]
 }

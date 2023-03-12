@@ -1,0 +1,28 @@
+{
+    "bg_tank_tavern": [
+        "tavern, quest board, mugs, tray, bar, fireplace, stool, torch, sconce, table, chair, candle"
+    ],
+    "ranbg_tankmeat": [
+        "#bg_landscape_field#",
+        "#bg_magical_forest#",
+        "#bg_fantasy_forest#",
+        "#bg_fantasy_harbor#",
+        "#bg_fantasy_city#",
+        "#bg_elven_city#",
+        "#bg_dungeon_loot#",
+        "#bg_fantasy_night_river#",
+        "#bg_onsen#",
+        "#bg_mountainpass#",
+        "#bg_castle_hill#",
+        "#bg_fantasy_gym#",
+        "#bg_tavern#",
+        "#bg_tropical_beach#",
+        "#bg_goldencity#",
+        "#bg_bright_city#",
+        "#bg_treehouse#"
+    ],
+    "bulge_or_huge_ass": [
+        "bulge",
+        "huge ass"
+    ]
+}

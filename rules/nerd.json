@@ -1,0 +1,33 @@
+{
+    "nerd_hair": [
+        "very short hair, (black hair, (gradient hair:1.2), blue hair:1), (wavy hair:1.2)",
+        "very short hair, (black hair, (gradient hair:1.2), blue hair:1), (wavy hair:1.2), twintails"
+    ],
+    "nerd_glasses": [
+        "glasses, black-framed eyewear, (rectangular eyewear:1.1)"
+    ],
+    "nerd_clothes": [
+        "long dress",
+        "jeans, pants, t-shirt",
+        "t-shirt, shorts",
+        "baggy sweater, pantyhose",
+        "print legwear, leggings",
+        "yoga pants, sports bra",
+        "miniskirt, off shoulder",
+        "gym shorts, sports bra",
+        "pencil skirt, white collared shirt, thighhighs"
+    ],
+    "ranbg_nerd": [
+        "#bg_modern_city#",
+        "#bg_contemporary_bedroom#",
+        "#bg_house_garden#",
+        "#bg_park#",
+        "#bg_dressing_room#",
+        "#bg_gym#",
+        "#bg_garden_pool#",
+        "#bg_cafeteria#",
+        "#bg_library#",
+        "#bg_nightclub#",
+        "#bg_arcade#"
+    ]
+}

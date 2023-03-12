@@ -1,4 +1,7 @@
 {
+    "fnp": [
+        "#framing#, #perspectives_common.ran1in4#, #basic_posture#, #arm_posture.ran1in4#"
+    ],
     "perspectives_common": [
         "dutch angle",
         "from above",
@@ -15,5 +18,67 @@
     ],
     "light_rays": [
         "light rays"
+    ],
+    "blush": [
+        "blush"
+    ],
+    "ass": [
+        "ass"
+    ],
+    "large_ass": [
+        "large ass"
+    ],
+    "huge_ass": [
+        "huge ass"
+    ],
+    "huge_ass_cutout": [
+        "huge ass, (ass cutout:1.2)"
+    ],
+    "giant_ass": [
+        "(huge ass:1.5), (huge ass:1.5), (huge ass:1.5)"
+    ],
+    "pigeon-toed": [
+        "pigeon-toed"
+    ],
+    "dumb_face": [
+        "confused",
+        "curious",
+        "smile",
+        "slight smile",
+        ":)",
+        ":(",
+        "bashful",
+        "embarrassed",
+        "moaning",
+        "pouty lips"
+    ],
+    "posture": [
+        "#basic_posture#, #arm_posture.ran1in4#",
+        "#basic_posture#, #arm_posture.ran1in4#",
+        "#gesture#"
+    ],
+    "white_panties": [
+        "white panties"
+    ],
+    "upskirt_white_panties": [
+        "upskirt, white panties"
+    ],
+    "black_panties": [
+        "black panties"
+    ],
+    "undersized_clothes": [
+        "undersized clothes"
+    ],
+    "skin_tight": [
+        "skin tight"
+    ],
+    "belt_pouch": [
+        "belt pouch"
+    ],
+    "thigh_strap": [
+        "thigh strap"
+    ],
+    "chest_strap": [
+        "chest strap"
     ]
 }

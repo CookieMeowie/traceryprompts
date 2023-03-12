@@ -1,5 +1,5 @@
 {
-    "sky": [
+    "sky_color": [
         "blue sky",
         "dark blue sky",
         "purple sky",
@@ -8,5 +8,18 @@
         "green sky",
         "red sky",
         "orange sky"
+    ],
+    "blue_sky_day": [
+        "blue sky",
+        "blue sky, cloudy sky",
+        "blue sky, sun",
+        "blue sky, cloudy sky, sun",
+        "blue sky, cloudy sky, sunrise",
+        "blue sky, sunrise",
+        "blue sky, sunset",
+        "blue sky, sunset, cloudy sky"
+    ],
+    "light_rays": [
+        "light rays"
     ]
 }

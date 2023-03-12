@@ -1,6 +1,5 @@
 {
     "all_faces": [
-        "#gesugao#",
         ":(",
         ":)",
         ":<",
@@ -28,5 +27,59 @@
     ],
     "evil_face": [
         "snear"
+    ],
+    "sweet_face": [
+        ":(",
+        ":)",
+        ":<",
+        ":>",
+        ">:(",
+        ">:)",
+        "ahegao",
+        "bashful",
+        "embarrassed",
+        "moaning",
+        "motherly",
+        "pouty lips",
+        "scared",
+        "screaming",
+        "slight smile",
+        "shocked",
+        "smirk",
+        "wince"
+    ],
+    "naive_face": [
+        "slight smile",
+        "bashful",
+        "embarrassed",
+        "motherly",
+        "pouty lips",
+        "scared",
+        "screaming",
+        "shocked",
+        "wince"
+    ],
+    "brat_face": [
+        "#gesugao#",
+        "evil grin",
+        ">:)",
+        ":>",
+        "moaning",
+        "scared",
+        "smirk",
+        "evil smirk",
+        "naughty face",
+        "rape face"
+    ],
+    "select_faces": [
+        "embarrassed, blush",
+        "seductive smile",
+        "smirk",
+        "parted lips",
+        "gasp",
+        "moaning",
+        "ahegao",
+        "naughty face",
+        "rape face"
     ]
 }

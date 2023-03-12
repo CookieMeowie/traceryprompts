@@ -1,21 +1,12 @@
 {
-    "bg_modifier_fantasy": [
-        "overgrown",
-        "ruins",
-        "clutter"
-    ],
-    "bg_modifier_all": [
-        "overgrown",
-        "ruins",
-        "wet",
-        "infected",
-        "alien"
-    ],
     "bg_modern_city": [
         "outdoors, city, street, storefront, skyscraper, advertising, sign, road sign"
     ],
     "bg_fantasy_lab": [
         "indoors, laboratory, shelves, potion, alembic, alchemist equipment, stack of books, experiment"
+    ],
+    "bg_laboratory": [
+        "laboratory, research bench, books, test tubes, glasswear, science lab, lab, science, scientist, (embers:1.1), flame, bunsen burner, bubbling liquid, (steam:0.4), (magic potion:1), potion, alchemy, wood panelling"
     ],
     "bg_fantasy_classroom": [
         "indoors, school, classroom, wooden wall, picture frame, chair, desk, chalkboard, book, bookshelf, papers, chandelier, candles, curtain, window, shelves, window"
@@ -27,10 +18,13 @@
         "outdoors, magical forest, giant tree trunk, overgrown, rough bark, (vines:0.85), (brambles:0.7), field, mountain"
     ],
     "bg_fantasy_bedroom": [
-        "indoors, canopy bed, wood panel, curtain, window, candle, pillow, bedsheet, book, lantern, warm light"
+        "indoors, canopy bed, wood panel, curtain, window, candle, pillow, bedsheet, book"
     ],
     "bg_contemporary_bedroom": [
         "indoors, bedroom, bed, pillow, #props_contemporary_household_general#"
+    ],
+    "bg_contemporary_harbor": [
+        "outdoors, architecture, ocean, waves, harbor, watercraft, building, city, people, fishing net, bouy, lighthouse"
     ],
     "bg_spacestation": [
         "indoors, spacestation, large window, sci-fi hallway, pipes, tubes, wires, panels, disrepair"
@@ -42,10 +36,13 @@
         "outdoors, architecture, ocean, waves, harbor, sailing ship, building, fantasy, rpg, city, people"
     ],
     "bg_fantasy_city": [
-        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
+        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, shop sign, fountain, castle on the hill, steps"
     ],
     "bg_house_garden": [
         "outdoors, building, garden, playing, toy, house, home, windows, door, path, plant pot, flower, grass, lawn, tree"
+    ],
+    "bg_elven_city": [
+        "outdoors, scenery, elven city, forest, (moss:0.7), shops, hanging gardens flowers, lamppost, paper lanterns, vines, ladder, windows, platforms, tree house, rope bridges"
     ],
     "bg_dungeon_loot": [
         "indoors, dungeon, rpg, treasure chest, jewels, (loot:1), gold, (gold coins:1.1), coins, (embers:1.2), shadows, maps, clutter"
@@ -62,37 +59,103 @@
     "bg_mountainpass": [
         "outdoors, (a mountain pass, cottage, tree, flower:1.2), (barn, table, tapestry:0.9), (clutter:1.2)"
     ],
-    "bg_bright_city": [
-        "outdoors, architecture, building, rpg, (city:1.2), building, cityscape"
-    ],
     "bg_castle_hill": [
-        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, lanterns, shop sign, fountain, castle on the hill, steps"
-    ],
-    "bg_church": [
-        "indoors, cathedral, candle, altar, window, stained glass, pew, church, light particles, night, shadow"
-    ],
-    "bg_goldencity": [
-        "outdoors, architecture, building, golden city, rpg, city, people, crowded"
+        "outdoors, town square, mossy cobblestone, shops, market stalls, flowers, lamppost, (lantern:0.7), shop sign, fountain, castle on the hill, steps"
     ],
     "bg_fantasy_gym": [
         "indoors, gym, water bottle, towel, wooden panel, dumbbell, weightlifting, anvil, sconce, torch, horseshoe, dumbbell"
     ],
-    "bg_gym": [
-        "indoors, gym, playing sports, exercise machine, weightlifting, weights, excercise, dumbbell, treadmill, basketball hoop, vaulting horse, water bottle, towel"
-    ],
     "bg_tavern": [
-        "tavern, quest board, beer, mugs, tray, bar, fireplace, stool, torch, sconce, table, chair, lantern"
+        "tavern, quest board, beer, mugs, tray, bar, fireplace, stool, torch, sconce, table, chair, (lantern:0.6)"
     ],
-    "bg_wizards_tower": [
+    "bg_wizard_tower": [
         "indoors, tower, (stone wall:1.1), spider web, brazier, table, bookshelf, oil lamp, stack of books, papers, quill & ink, window, blue sky"
     ],
     "bg_wizard_school": [
         "indoors, wood panel, classroom, desk, chair, chalkboard, oil lamp, brazier, (candles:0.75), storage boxes, hanging cloak"
+    ],
+    "bg_park": [
+        "park, playground, sun, summer, flowers, tree, bush, hedge, playground equipment, jungle gym, spring rider, hopscotch, chalk drawings, toy, toys"
+    ],
+    "bg_mall": [
+        "indoors, mall, storefront, tiles, box, box stack, reflective floor, escalator, crowd, people"
+    ],
+    "bg_tropical_beach": [
+        "outdoors, landscape, (old pier:1.1), tropical beach, cloud, day, ocean, nature, palm tree, realistic, scenery, sky, watercraft, (clutter:1.1)"
+    ],
+    "bg_classroom": [ 
+        "indoors, school, classroom, school bag, bookshelf, storage boxes, locker, chalkboard, chair, desk, window, crowd, students" 
     ],
     "bg_desert": [
         "desert, yellow sands, dust, animal skull, rocks, dead brush, tumbleweed"
     ],
     "bg_saloon": [
         "saloon, bar, glasswear, bottle, alcohol, shot glass, stool, table, cards, poker chips, piano, chandelier, stairs"
+    ],
+    "bg_gym": [
+        "indoors, gym, playing sports, exercise machine, weightlifting, weights, excercise, dumbbell, treadmill, basketball hoop, vaulting horse, water bottle, towel"
+    ],
+    "bg_church": [
+        "indoors, cathedral, candle, altar, window, stained glass, pew, church, light particles, night, shadow"
+    ],
+    "bg_goldencity": [
+        "outdoors, architecture, building, golden city, city, people, crowded"
+    ],
+    "bg_bright_city": [
+        "outdoors, architecture, building, (city:1.2), building, cityscape"
+    ],
+    "bg_dressing_room": [
+		"changing room, dressing room, clothing store, curtain, racks of clothes, mirror, store changing room, open curtain, shoes, folded clothes, hanging clothes"
+	],
+	"bg_school_playground": [
+		"school, playground, playground equipment, climbing frame, jungle gym, swing set"
+	],
+    "bg_treehouse": [
+        "forest, mud, tree, bush, wildflowers, brambles, nettles, treehouse, rope ladder, net, sign, tire, tire swing, swing"
+    ],
+    "bg_soccer": [
+        "soccer field, soccer ball, goal, building, bleachers, park, field, tree"
+    ],
+    "bg_garden_pool": [
+        "poolside, pool, inflatable toy, garden, flower, fence, building, house"
+    ],
+    "bg_sports_hall":[
+        "gymnasium, balance bar, wooden floor, climbing wall, yoga mat, goal, window, hall, hobby horse"
+    ],
+    "bg_cafeteria": [
+        "cafeteria, food hall, hall, food service, tray, table chair, crowd"
+    ],
+    "bg_alien_forest": [
+        "outdoors, yellow bush, alien forest, alien planet, strange flora, weird trees, blue grass, purple sky, orange full moon"
+    ],
+    "bg_alien_planet": [
+        "outdoors, scenery, alien planet, green sky, red ground, red grass, red trees, stars, shooting star"
+    ],
+    "bg_spaceship_cockpit": [
+        "indoors, spaceship, spacecraft interior, cockpit, window, stars, pilot seat, control stick, buttons, control panel, switch, button, lever"
+    ],
+    "bg_spaceship_cargohold": [
+        "indoors, spacecraft interior, cargo hold, warehouse, crate, barrel, shelves, shuttlepod, forcefield, stars, space"
+    ],
+    "bg_spaceship_quarters": [
+        "indoors, spacecraft interior, white scifi wall, quarters, bunk bed, pillow, blanket, table, cupboard, window, space, stars"
+    ],
+    "bg_tennis_court": [
+        "tennis court, building, fence, net, tennis racket, scenery, tennis ball"
+    ],
+    "bg_space_ball": [
+        "indoors, (spacecraft interior:1.2), ballroom, (glass dome:1.1), space, stars, shooting star, crowd, people"
+    ],
+    "bg_library": [
+        "indoors, library, book, stack of books, bookshelf, bookshelf, light particles"
+    ],
+    "bg_church_stained_glass": [
+        "light rays, church, cathedral, stained glass window, altar, cross, statue, architecture, pew, candle"
+    ],
+    "bg_nightclub": [
+        "nightclub, crowd, people, lazer"
+    ],
+    "bg_arcade": [
+        "arcade, arcade cabinet, neon light"
     ]
 }
