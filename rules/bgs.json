@@ -80,6 +80,9 @@
     "bg_mall": [
         "indoors, mall, storefront, tiles, box, box stack, reflective floor, escalator, crowd, people"
     ],
+    "bg_mall_no_people": [
+        "indoors, mall, storefront, tiles, box, box stack, reflective floor, escalator"
+    ],
     "bg_tropical_beach": [
         "outdoors, landscape, (old pier:1.1), tropical beach, cloud, day, ocean, nature, palm tree, realistic, scenery, sky, watercraft, (clutter:1.1)"
     ],

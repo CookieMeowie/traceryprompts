@@ -17,8 +17,8 @@ from modules.shared import cmd_opts, opts, state
 
 
 DEFAULT_RULES = "{\n\"origin\": \"#hello.capitalize#, #location#!\",\n\"hello\": [\"hello\", \"greetings\", \"howdy\", \"hey\"],\n\"location\": [\"world\", \"solor system\", \"galaxy\", \"universe\"]\n}"
-DEFAULT_RULES_PATH = "\\extensions\\traceryprompts\\mainrules.json"
-RULES_DIR_PATH = "\\extensions\\traceryprompts\\rules"
+DEFAULT_RULES_PATH = "/extensions/traceryprompts/mainrules.json"
+RULES_DIR_PATH = "/extensions/traceryprompts/rules"
 
 
 
