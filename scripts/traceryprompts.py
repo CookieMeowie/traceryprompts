@@ -210,7 +210,7 @@ class Script(scripts.Script):
         # Load each json
         new_rules:dict = {}
         for f in files:
-            with open(scripts.basedir() + RULES_DIR_PATH + "\\" + f) as data_file:
+            with open(scripts.basedir() + RULES_DIR_PATH + "/" + f) as data_file:
                 new_dict:dict = new_rules.copy()
                 new_dict.update(json.load(data_file))
                 new_rules = new_dict
